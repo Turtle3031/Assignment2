@@ -20,15 +20,14 @@ st.write(""""Vision Tea and Coffee""")
 #image = Image.open('C:/Users/jorda/OneDrive/Desktop/Assignment 2(3)/1280px-Coffee_beans2.jpg',"rb")
 #st.image(image, caption= 'ML', use_column_width=True)
 
-#url2 = "https://github.com/Turtle3031/Assignment2/blob/a53b46cdf7fd704d7323e39da0397ccf2e4bb3d9/Webapp.csv"
-#html2 = pd.read_html(url2, header = 0)
-df= pd.read_csv('C:/Users/jorda/OneDrive/Desktop/Assignment 2(3)/Webapp.csv', "rb")
+url2 = "https://github.com/Turtle3031/Assignment2/blob/a53b46cdf7fd704d7323e39da0397ccf2e4bb3d9/Webapp.csv"
+html2 = pd.read_html(url2, header = 0)
+df= pd.read_csv(html2)
 
 st.subheader("The raw data table, no weighting")
 st.dataframe(df)
 st.write(df.describe())
 st.bar_chart(df)
-
 
 
 st.text("Disclaimer: This app cannot fix/help someone in terminally ill state, particularly if taking different medication treatments. It may slow the process of diseases slowly assuming no medical interactions, if that is the case this AI does not cover that (chemical interactions in pharamaceuticals). Spatial (global) time series (1960-2026) large scale Data Problem is accurate mostly to 90-95% of population, exact genetic biomarking with functional mutagenesis changes and family trees, is not factored in, its believed to have a 2-5% impact compared to the environment, mutagenesis has big impacts on the terminally ill and end of life, generally not those under 60-70 in most cases except the severely disabled. This App does not take any responsibility for those in a terminally ill state, its designed to prevent it happening or slow the progression of disease, if in a bad disease or terminally ill state, consult your doctor or medical professional. This App may slow the disease in those states (assuming no drug or surgical interactions) but the doctors may recommend pharmaceutical or surgical treatments that are not tested in these models and may significantly change outcomes. The app is not a replacement for medical treatment, just natural healthcare advice.")
