@@ -17,12 +17,12 @@ from PIL import Image
 st.write(""""Vision Tea and Coffee""")        
 #url = "https://github.com/Turtle3031/Assignment2/blob/82ff5674a743aba5930faa9020d3c424051ae888/1280px-Coffee_beans2.png"
 #html = pd.read_html(url, header = 0)
-image = Image.open('C:/Users/jorda/OneDrive/Desktop/Assignment 2(3)/1280px-Coffee_beans2.jpg')
+image = Image.open('C:/Users/jorda/OneDrive/Desktop/Assignment 2(3)/1280px-Coffee_beans2.jpg',"rb")
 st.image(image, caption= 'ML', use_column_width=True)
 
 #url2 = "https://github.com/Turtle3031/Assignment2/blob/a53b46cdf7fd704d7323e39da0397ccf2e4bb3d9/Webapp.csv"
 #html2 = pd.read_html(url2, header = 0)
-df= pd.read_csv('C:/Users/jorda/OneDrive/Desktop/Assignment 2(3)/Webapp.csv')
+df= pd.read_csv('C:/Users/jorda/OneDrive/Desktop/Assignment 2(3)/Webapp.csv', "rb")
 
 st.subheader("The raw data table, no weighting")
 st.dataframe(df)
