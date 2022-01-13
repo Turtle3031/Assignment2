@@ -11,6 +11,7 @@ import pandas as pd
 import numpy as np
 import altair as alt
 from PIL import Image
+from lxml import etree
 #C:/Users/jorda/OneDrive/Desktop/Assignment 2(3)/Webapp.csv
 # C:/Users/jorda/OneDrive/Desktop/Assignment 2(3)/1280px-Coffee_beans2.jpg
 
