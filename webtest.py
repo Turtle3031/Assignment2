@@ -4,6 +4,7 @@ Created on Wed Jan  5 08:26:27 2022
 
 @author: jorda
 """
+pip3 install lxml
 
 import streamlit as st
 import pandas as pd
