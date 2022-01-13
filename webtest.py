@@ -14,7 +14,7 @@ from PIL import Image
 # C:/Users/jorda/OneDrive/Desktop/Assignment 2(3)/1280px-Coffee_beans2.jpg
 
 st.write(""""Vision Tea and Coffee""")        
-url = "https://github.com/Turtle3031/Assignment2/blob/82ff5674a743aba5930faa9020d3c424051ae888/1280px-Coffee_beans2.jpg"
+url = "https://github.com/Turtle3031/Assignment2/blob/82ff5674a743aba5930faa9020d3c424051ae888/1280px-Coffee_beans2.png"
 html = pd.read_html(url, header = 0)
 image = Image.open(html)
 st.image(image, caption= 'ML', use_column_width=True)
