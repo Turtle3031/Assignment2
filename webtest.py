@@ -10,13 +10,14 @@ import pandas as pd
 import numpy as np
 import altair as alt
 from PIL import Image
+#C:/Users/jorda/OneDrive/Desktop/Assignment 2(3)/Webapp.csv
+# C:/Users/jorda/OneDrive/Desktop/Assignment 2(3)/1280px-Coffee_beans2.jpg
 
-st.write(""""Vision Tea and Coffee""")
-         
-image = Image.open("C:/Users/jorda/OneDrive/Desktop/Assignment 2(3)/1280px-Coffee_beans2.jpg")
+st.write(""""Vision Tea and Coffee""")        
+image = Image.open("https://github.com/Turtle3031/Assignment2/blob/82ff5674a743aba5930faa9020d3c424051ae888/1280px-Coffee_beans2.jpg")
 st.image(image, caption= 'ML', use_column_width=True)
 
-df= pd.read_csv("C:/Users/jorda/OneDrive/Desktop/Assignment 2(3)/Webapp.csv")
+df= pd.read_csv("https://github.com/Turtle3031/Assignment2/blob/a53b46cdf7fd704d7323e39da0397ccf2e4bb3d9/Webapp.csv")
 
 st.subheader("The raw data table, no weighting")
 st.dataframe(df)
