@@ -25,8 +25,8 @@ st.bar_chart(df)
 
 
 st.text("Disclaimer: This app cannot fix/help someone in terminally ill state, particularly if taking different medication treatments. It may slow the process of diseases slowly assuming no medical interactions, if that is the case this AI does not cover that (chemical interactions in pharamaceuticals). Spatial (global) time series (1960-2026) large scale Data Problem is accurate mostly to 90-95% of population, exact genetic biomarking with functional mutagenesis changes and family trees, is not factored in, its believed to have a 2-5% impact compared to the environment, mutagenesis has big impacts on the terminally ill and end of life, generally not those under 60-70 in most cases except the severely disabled. This App does not take any responsibility for those in a terminally ill state, its designed to prevent it happening or slow the progression of disease, if in a bad disease or terminally ill state, consult your doctor or medical professional. This App may slow the disease in those states (assuming no drug or surgical interactions) but the doctors may recommend pharmaceutical or surgical treatments that are not tested in these models and may significantly change outcomes. The app is not a replacement for medical treatment, just natural healthcare advice.")
-st.text("'Prevention Data'
-'	CANT USE AT ALL DUE  TO  ONLY NON COMMERCIAL AGREEMENTS ONLY, NO NEGOTIATION CLAUSE'
+st.text("""Prevention Data
+	CANT USE AT ALL DUE  TO  ONLY NON COMMERCIAL AGREEMENTS ONLY, NO NEGOTIATION CLAUSE'
 '	Global  Innovation Index 2022,  Analysis, viewed 13/01/2022,< https://www.globalinnovationindex.org/analysis-indicator/>.'
 '   Commercial Lock Fees'
 '	IHME 2022, GBD Compare, viewed 13/01/2022, <https://vizhub.healthdata.org/gbd-compare/>.'
@@ -55,4 +55,4 @@ st.text("'Prevention Data'
 '	The World Bank 2022b,  Unemployment Total (% total labor force)(modelled ISO estimate), viewed 13/01/2021, https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?view=map'
 '	The World Bank 2022c,  GDP Growth Annual Percentage, viewed 13/01/2022, <https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?view=map&year=2020>.'
 '	Yale 2022,  Environmental Performance Index, viewed 13/02/2022, <https://epi.yale.edu/epi-results/2020/component/epi>.'
-")
+""")
